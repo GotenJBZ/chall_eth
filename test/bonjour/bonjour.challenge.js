@@ -25,6 +25,7 @@ describe('[Challenge] Bonjour', function() {
 
   it('Exploit', async function() {
     /** CODE YOUR EXPLOIT HERE */
+    await this.bonjour.setWelcomeMessage("Welcome to SEETF");
   });
 
   after(async function() {

@@ -28,6 +28,12 @@ describe('[Challenge] You Only Have One Chance', function() {
 
   it('Exploit', async function() {
     /** CODE YOUR EXPLOIT HERE */
+    await (await ethers.getContractFactory(
+      'HackYouOnlyHaveOneChance',
+      attacker,
+      ))
+    .deploy(this.safe.address);
+    
   });
 
   after(async function() {
