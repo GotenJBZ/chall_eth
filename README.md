@@ -19,7 +19,7 @@ Aggregation of challs based on ethereum from different CTFs.
 
 ### [SEETF 2022](https://ctftime.org/event/1543)
 
-1. Bonjour [:heavy_check_mark]
-2. You Only Have One Chance [:heavy_check_mark]
-3. Duper Super Safe Safe [:heavy_check_mark]
-4. Rolls Royce [:heavy_check_mark]
+1. Bonjour [:heavy_check_mark:]
+2. You Only Have One Chance [:heavy_check_mark:]
+3. Duper Super Safe Safe [:heavy_check_mark:]
+4. Rolls Royce [:heavy_check_mark:]
